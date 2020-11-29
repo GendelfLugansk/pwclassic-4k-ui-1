@@ -52,12 +52,12 @@ HpmpOther.dtf		-1	0	0
 HpmpOtherB.dtf		-1	0	0
 Progress.dtf		75	100	0
 Progress1.dtf		75	100	0
-Progress2.dtf		-1	-90	0
+Progress2.dtf		-1	-600	0
 Progress_HP.dtf	80	120	0
 Progress_MP.dtf	80	145	0
-MagicProgress1.dtf	-1	-180	0
-MagicProgress2.dtf	-1	-180	0
-MagicProgress3.dtf	-1	-180	0
+MagicProgress1.dtf	-1	-700	0
+MagicProgress2.dtf	-1	-700	0
+MagicProgress3.dtf	-1	-700	0
 Popmsg.dtf		-1	10	0
 Broken.dtf		0	-1	1
 AccountTime.dtf	-1	10	0
