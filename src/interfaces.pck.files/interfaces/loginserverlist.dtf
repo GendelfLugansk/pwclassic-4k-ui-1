@@ -1,3 +1,4 @@
+#Окно выбора сервера
 DIALOG "Win_LoginServerList" 0 0 680 1050 0 1 10 "Window\对话框_透明色.bmp" "" "" 0 0 -1 -1 "" 0 0 96 96 96 150 1
 EDIT "Control_132863868" "" "" 0 198 680 860 "Button\按钮_文本1b.dds" 2 30 255 255 255 "TEXT" 1 0 20
 STILLIMAGEBUTTON "Btn_Choose" "confirm" "SFX\Interface\ClickB.wav" 206 986 120 56 0 0 0 0 3 20 255 203 74 255 "Button\按钮_文本1b.dds" "Button\按钮_文本2b.dds" 4 1
