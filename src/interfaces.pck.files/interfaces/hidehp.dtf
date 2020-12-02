@@ -1,3 +1,3 @@
-#Кнопка которая прячет окно с хп/мп
-DIALOG "Win_HideHP" 0 0 53 53 0 1 10 "Window\对话框_透明色.bmp" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1
-CHECK "Chk_CloseHP" "closeHP" "SFX\Interface\ClickA.wav" 0 0 53 53 "Extra\复选框_开关血.tga"
+#Кнопка для сворачивания панели с хпм/мп/эксп
+DIALOG "Win_HideHP" 0 0 42 42 0 1 10 "Window\对话框_透明色.bmp" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1
+CHECK "Chk_CloseHP" "closeHP" "SFX\Interface\ClickA.wav" 0 0 42 42 "Extra\复选框_开关血.tga"
