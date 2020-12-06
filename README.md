@@ -47,19 +47,23 @@
     
     ![screenshot](dpi_instr.png)
 
-### Разработка
+### Разработка / модификация
 
-Использовать [build.bat](build.bat) для полноценного билда либо один из 
-[build-configs.bat](build-configs.bat), [build-fonts.bat](build-fonts.bat),
-[build-interfaces.bat](build-interfaces.bat), [build-surfaces.bat](build-surfaces.bat)
-для сборки соответствующего .pck-файла
-
-Для тестирования лучше всего создать папку client и скопировать туда содержимое 
-папки с клиентом pwclassic.
+Все исходники в папке `src`.
 
 Техническая информация находится в файле [заметки_на_полях.md](заметки_на_полях.md).
 
 Кроме того, dtf файлы, назначение которых известно, имеют комментарий в первой строке.
+
+Для тестирования результатов можно использовать[build.bat](build.bat) (для 
+полного билда) либо один из [build-configs.bat](build-configs.bat), 
+[build-fonts.bat](build-fonts.bat), [build-interfaces.bat](build-interfaces.bat), 
+[build-surfaces.bat](build-surfaces.bat) для сборки соответствующего .pck-файла.
+Отдельные батники удобны если менялось содержимое только одной папки.
+
+Для тестирования лучше всего создать папку client и скопировать туда содержимое 
+папки с клиентом pwclassic. Все батники настроены копировать туда свежесобранные 
+файлы
 
 ### Поддержать автора
 
