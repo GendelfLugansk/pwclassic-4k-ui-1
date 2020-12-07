@@ -1,13 +1,13 @@
 #Чат
 DIALOG "Win_Chat" 0 0 634 206 0 1 10 "" "" "" 0 -35 -1 -1 "" 0 0 96 96 96 0 1
-IMAGEPICTURE "Pic_BG" "" "" 0 130 634 80 1 0 "Window\对话框_聊天1.tga"
+IMAGEPICTURE "Pic_BG" "" "" 0 130 634 80 1 0 "Window\对话框_聊天1-x2.tga"
 EDIT "Img_Back0" "" "" 0 0 634 130 "Window\对话框_透明色.bmp" 2 35 255 0 255 "TEXT" 1 0 256
 EDIT "Img_Back1" "" "" 0 0 634 130 "Editbox\文本框_4b.tga" 3 35 255 0 255 "TEXT" 1 0 256
 EDIT "Img_Back2" "" "" 0 0 634 130 "Editbox\文本框_4b.tga" 4 35 255 0 255 "TEXT" 1 0 256
-EDIT "Img_Back3" "" "" 0 0 634 130 "Window\对话框_标准边框3b.dds" 5 35 255 0 255 "TEXT" 1 0 256
-EDIT "Img_Back4" "" "" 0 0 634 130 "Window\对话框_标准边框3b.dds" 6 35 255 0 255 "TEXT" 1 0 256
-EDIT "Img_Back5" "" "" 0 0 634 130 "Window\对话框_标准边框.dds" 7 35 255 0 255 "TEXT" 1 0 256
-TEXT "Txt_Content" "" "" 0 0 630 128 8 10 255 255 255 255 "Window\对话框_透明色.bmp" "Listbox\列表框_上移.bmp" "Listbox\列表框_下移.bmp" "Listbox\列表框_滚动槽1.tga" "Listbox\列表框_拖动按钮1.bmp"
+EDIT "Img_Back3" "" "" 0 0 634 130 "Window\对话框_标准边框3b-x2.dds" 5 35 255 0 255 "TEXT" 1 0 256
+EDIT "Img_Back4" "" "" 0 0 634 130 "Window\对话框_标准边框3b-x2.dds" 6 35 255 0 255 "TEXT" 1 0 256
+EDIT "Img_Back5" "" "" 0 0 634 130 "Window\对话框_标准边框-x2.dds" 7 35 255 0 255 "TEXT" 1 0 256
+TEXT "Txt_Content" "" "" 0 0 630 128 8 10 255 255 255 255 "Window\对话框_透明色.bmp" "Listbox\列表框_上移-x2.bmp" "Listbox\列表框_下移-x2.bmp" "Listbox\列表框_滚动槽1-x2.tga" "Listbox\列表框_拖动按钮1-x2.bmp"
 EDIT "DEFAULT_Txt_Speech" "speak" "" 184 168 420 42 "Window\对话框_透明色.bmp" 9 20 255 255 255 "TEXT" 0 0 80
 COMBO "Txt_Speakway" "speakmode" "" -2000 -2000 16 15 10 10 255 255 255 255 "Window\对话框_透明色5.tga" "Listbox\列表框_反显.dds"
 STILLIMAGEBUTTON "Btn_Color" "chgcolor" "SFX\Interface\ClickB.wav" 62 180 18 18 0 0 0 0 11 15 255 255 255 255 "Button\按钮_换色1.bmp" "Button\按钮_换色2.bmp" 12 1
