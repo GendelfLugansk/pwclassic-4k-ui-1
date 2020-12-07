@@ -5,7 +5,7 @@ IMAGEPICTURE "L" "" "" -12 -4 64 1024 1 0 "Window\花纹_L.dds"
 IMAGEPICTURE "U" "" "" 50 -8 1024 128 1 0 "Window\花纹_U.dds"
 IMAGEPICTURE "R" "" "" 572 -4 62 1024 1 0 "Window\花纹_R.dds"
 IMAGEPICTURE "D" "" "" 50 818 1024 64 1 0 "Window\花纹_D.dds"
-LABEL "Control_515173200" "" "" 227 59 168 42 3 30 4 255 203 74 255
+LABEL "Control_515173200" "" "" 230 59 168 42 3 30 4 255 203 74 255
 
 IMAGEPICTURE "FaceCmd_25" "" "" 40 770 64 64 1 0 "Window\图标_物品栏t.dds"
 IMAGEPICTURE "FaceCmd_26" "" "" 108 770 64 64 1 0 "Window\图标_物品栏t.dds"
