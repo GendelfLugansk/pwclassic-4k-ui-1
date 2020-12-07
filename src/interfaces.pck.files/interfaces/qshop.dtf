@@ -5,7 +5,7 @@ IMAGEPICTURE "Img_U" "" "" 25 -3 591 64 1 0 "Window\花纹_UA.dds"
 IMAGEPICTURE "Img_L" "" "" -6 -2 32 560 1 0 "Window\花纹_L.dds"
 IMAGEPICTURE "Img_D" "" "" 25 449 591 35 1 0 "Window\花纹_DA.dds"
 IMAGEPICTURE "Img_R" "" "" 615 -2 32 560 1 0 "Window\花纹_R.dds"
-EDIT "itemback" "" "" 28 114 180 342 "InGameHintFrame.dds" 5 15 255 255 255 "TEXT" 1 0 20
+EDIT "itemback" "" "" 28 114 180 342 "InGameHintFrame-x1.dds" 5 15 255 255 255 "TEXT" 1 0 20
 LABEL "cash" "" "" 316 436 42 16 6 10 7 255 203 74 255
 STILLIMAGEBUTTON "Btn_MainType0" "maintype0" "" 82 59 57 25 0 0 0 0 8 10 255 255 255 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 9 1
 STILLIMAGEBUTTON "Btn_MainType1" "maintype1" "" 142 59 57 25 0 0 0 0 10 10 255 255 255 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 11 1
