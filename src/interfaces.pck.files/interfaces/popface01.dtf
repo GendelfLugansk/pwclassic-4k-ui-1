@@ -1,5 +1,5 @@
 #Смайлы для беседок и окошка чата
-DIALOG "Win_Popface01" 0 0 680 390 0 1 10 "Window\对话框_标准边框3b.dds" "" "" 0 0 -2 -2 "Window\对话框_标准关闭-x2.tga" 60 3 96 96 96 127 1
+DIALOG "Win_Popface01" 0 0 680 390 0 1 10 "Window\对话框_标准边框3b-x2.dds" "" "" 0 0 -2 -2 "Window\对话框_标准关闭-x2.tga" 60 3 96 96 96 127 1
 LABEL "Control_7820650" "" "" 6 0 0 0 2 32 3 255 203 74 255
 IMAGEPICTURE "Face_00" "face00" "" 10 52 64 64 1 0 "Window\对话框_透明色.bmp"
 IMAGEPICTURE "Face_01" "face01" "" 76 52 64 64 1 0 "Window\对话框_透明色.bmp"

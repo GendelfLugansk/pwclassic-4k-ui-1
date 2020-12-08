@@ -1,4 +1,4 @@
-#Õèðêà íà õï
+#§·§Ú§â§Ü§Ñ §ß§Ñ §ç§á
 DIALOG "Win_PrgsHP" 0 0 272 40 0 1 10 "Window\¶Ô»°¿ò_Í¸Ã÷É«.bmp" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1
 PROGRESS "Prgs_HPLeft" "" "" 44 6 184 24 "Progress\BGBarI.tga" "Progress\HPBarI.tga" 0 1 0 1
 IMAGEPICTURE "Cover" "" "" 0 0 272 40 1 0 "Progress\HPBar.tga"

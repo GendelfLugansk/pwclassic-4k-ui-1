@@ -1,3 +1,3 @@
-#IDK...
-DIALOG "Win_Poplist" 0 0 320 200 0 1 10 "Window\对话框_标准边框.dds" "" "" 0 0 400 33 "" 30 6 96 96 96 150 1
-LIST "List" "list" "SFX\Interface\ClickB.wav" 12 10 300 180 2 10 255 255 255 255 "Window\对话框_透明色.bmp" "Listbox\列表框_反显.dds" "Listbox\列表框_无.bmp" "Listbox\列表框_无.bmp" "Listbox\列表框_滚动槽1s.tga" "Listbox\列表框_拖动按钮1u.bmp" 0 "0"
+#Когда приходит сразу несколько уведомлений (приватный чат, пати, приглос...), они отображаются списком
+DIALOG "Win_Poplist" 0 0 320 200 0 1 10 "Window\对话框_标准边框-x2.dds" "" "" 0 0 400 33 "" 30 6 96 96 96 150 1
+LIST "List" "list" "SFX\Interface\ClickB.wav" 12 10 300 180 2 20 255 255 255 255 "Window\对话框_透明色.bmp" "Listbox\列表框_反显-x2.dds" "Listbox\列表框_无.bmp" "Listbox\列表框_无.bmp" "Listbox\列表框_滚动槽1s-x2.tga" "Listbox\列表框_拖动按钮1u-x2.bmp" 0 "0"
