@@ -1,22 +1,23 @@
-DIALOG "Win_HpOtherB" 0 0 248 89 0 1 10 "" "" "" 0 0 -1 -1 "" 0 0 96 96 96 0 1
-IMAGEPICTURE "Back" "" "" 47 0 154 64 1 0 "Window\对话框_标准边框7e.dds"
-PROGRESS "Prgs_HP" "" "" 56 9 135 8 "Window\对话框_透明色.bmp" "Progress\进度条_红2.bmp" 0 0 0 0
-LABEL "Txt_Name" "" "" 124 17 0 0 2 10 3 255 255 255 255
-LABEL "Txt_Att" "" "" 124 59 0 0 4 10 5 255 203 74 255
-LABEL "Txt_Info" "" "" 130 36 0 0 6 8 7 255 255 255 255
-STILLIMAGEBUTTON "Btn_1" "Size" "SFX\Interface\ClickB.wav" 48 32 6 6 0 0 0 0 8 15 255 255 255 255 "Button\按钮_T3.bmp" "Button\按钮_T4.bmp" 9 1
-LABEL "Txt_El" "" "" 57 36 115 14 10 8 11 255 255 255 255
-IMAGEPICTURE "St_1" "" "" 52 73 16 16 1 0 "Window\对话框_透明色.bmp"
-IMAGEPICTURE "St_2" "" "" 70 73 16 16 1 0 "Window\对话框_透明色.bmp"
-IMAGEPICTURE "St_3" "" "" 89 73 16 16 1 0 "Window\对话框_透明色.bmp"
-IMAGEPICTURE "St_4" "" "" 108 73 16 16 1 0 "Window\对话框_透明色.bmp"
-IMAGEPICTURE "St_5" "" "" 127 73 16 16 1 0 "Window\对话框_透明色.bmp"
-IMAGEPICTURE "St_6" "" "" 146 73 16 16 1 0 "Window\对话框_透明色.bmp"
-IMAGEPICTURE "St_7" "" "" 165 73 16 16 1 0 "Window\对话框_透明色.bmp"
-IMAGEPICTURE "Img_Left" "" "" -17 0 64 64 1 0 "Window\1a.dds"
-IMAGEPICTURE "Img_Right" "" "" 200 0 64 64 1 0 "Window\1b.dds"
-IMAGEPICTURE "Img_PetLevel" "" "" 55 17 16 16 0 0 ""
-IMAGEPICTURE "Img_Demon" "" "" 55 17 16 16 1 0 "Extra\恶魔图标.tga"
-STILLIMAGEBUTTON "Btn_Player" "traceplayer" "" 173 34 18 18 0 0 0 0 12 15 255 255 255 255 "宠物追踪11.tga" "宠物追踪11.tga" 13 1
-STILLIMAGEBUTTON "Btn_ShowHP" "showhp" "SFX\Interface\ClickB.wav" 35 4 12 12 0 0 0 0 14 15 255 255 255 255 "人鱼传说新界面\进度条_hp\头像-hp按钮.tga" "人鱼传说新界面\进度条_hp\头像-hp按钮按下.tga" 15 1
-LABEL "Txt_HP" "" "" 48 7 150 0 16 8 17 255 255 255 255
+#NPC/Mob
+DIALOG "Win_HpOtherB" 0 0 496 178 0 1 10 "" "" "" 0 0 -1 -1 "" 0 0 96 96 96 0 1
+IMAGEPICTURE "Back" "" "" 94 0 308 128 1 0 "Window\对话框_标准边框7e.dds"
+PROGRESS "Prgs_HP" "" "" 112 18 270 16 "Window\对话框_透明色.bmp" "Progress\进度条_红2.bmp" 0 0 0 0
+LABEL "Txt_Name" "" "" 248 34 0 0 2 20 3 255 255 255 255
+LABEL "Txt_Att" "" "" 248 118 0 0 4 20 5 255 203 74 255
+LABEL "Txt_Info" "" "" 260 72 0 0 6 16 7 255 255 255 255
+STILLIMAGEBUTTON "Btn_1" "Size" "SFX\Interface\ClickB.wav" 96 64 12 12 0 0 0 0 8 30 255 255 255 255 "Button\按钮_T3-x2.bmp" "Button\按钮_T4-x2.bmp" 9 1
+LABEL "Txt_El" "" "" 114 72 230 28 10 16 11 255 255 255 255
+IMAGEPICTURE "St_1" "" "" 104 146 32 32 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_2" "" "" 140 146 32 32 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_3" "" "" 178 146 32 32 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_4" "" "" 216 146 32 32 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_5" "" "" 254 146 32 32 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_6" "" "" 292 146 32 32 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_7" "" "" 330 146 32 32 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "Img_Left" "" "" -34 0 128 128 1 0 "Window\1a.dds"
+IMAGEPICTURE "Img_Right" "" "" 400 0 128 128 1 0 "Window\1b.dds"
+IMAGEPICTURE "Img_PetLevel" "" "" 110 34 32 32 0 0 ""
+IMAGEPICTURE "Img_Demon" "" "" 110 34 32 32 1 0 "Extra\恶魔图标.tga"
+STILLIMAGEBUTTON "Btn_Player" "traceplayer" "" 346 68 36 36 0 0 0 0 12 30 255 255 255 255 "宠物追踪11-x2.tga" "宠物追踪11-x2.tga" 13 1
+STILLIMAGEBUTTON "Btn_ShowHP" "showhp" "SFX\Interface\ClickB.wav" 70 8 24 24 0 0 0 0 14 30 255 255 255 255 "人鱼传说新界面\进度条_hp\头像-hp按钮-x2.tga" "人鱼传说新界面\进度条_hp\头像-hp按钮按下-x2.tga" 15 1
+LABEL "Txt_HP" "" "" 96 14 300 0 16 16 17 255 255 255 255
