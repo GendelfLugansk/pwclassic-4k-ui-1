@@ -5,7 +5,7 @@ IMAGEPICTURE "L" "" "" -12 -4 64 1024 1 0 "Window\花纹_L.dds"
 IMAGEPICTURE "U" "" "" 50 -8 1024 128 1 0 "Window\花纹_U.dds"
 IMAGEPICTURE "R" "" "" 572 -4 62 1024 1 0 "Window\花纹_R.dds"
 IMAGEPICTURE "D" "" "" 50 818 1024 64 1 0 "Window\花纹_D.dds"
-LABEL "Txt_Vendor" "" "" 274 60 84 46 3 32 4 255 203 74 255
+LABEL "Txt_Vendor" "" "" 264 60 104 46 3 30 4 255 203 74 255
 IMAGEPICTURE "U_01" "" "" 40 168 64 64 1 0 "Window\图标_物品栏t.dds"
 IMAGEPICTURE "U_02" "" "" 108 168 64 64 1 0 "Window\图标_物品栏t.dds"
 IMAGEPICTURE "U_06" "" "" 380 168 64 64 1 0 "Window\图标_物品栏t.dds"
