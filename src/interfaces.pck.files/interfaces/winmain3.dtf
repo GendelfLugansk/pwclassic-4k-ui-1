@@ -1,8 +1,9 @@
-DIALOG "Win_Main3" 0 0 167 42 0 1 10 "Window\¶Ô»°¿ò_±ê×¼±ß¿ò.dds" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1
-STILLIMAGEBUTTON "Btn_GM" "wgm" "SFX\Interface\ClickB.wav" 2 5 27 33 0 0 0 0 2 18 255 255 255 255 "Window\Í¼Æ¬_GM.bmp" "Window\Í¼Æ¬_GM1.bmp" 3 1
-STILLIMAGEBUTTON "Btn_Help" "whelp" "SFX\Interface\ClickB.wav" 29 5 27 33 0 0 0 0 4 18 255 255 255 255 "Window\Í¼Æ¬_²Ëµ¥°ïÖú.bmp" "Window\Í¼Æ¬_²Ëµ¥°ïÖú1.bmp" 5 1
-STILLIMAGEBUTTON "Btn_Setting" "wsetting" "SFX\Interface\ClickB.wav" 83 5 27 33 0 0 0 0 6 18 255 255 255 255 "Window\Í¼Æ¬_²Ëµ¥ÏµÍ³ÉèÖÃ.bmp" "Window\Í¼Æ¬_²Ëµ¥ÏµÍ³ÉèÖÃ1.bmp" 7 1
-STILLIMAGEBUTTON "Btn_Repick" "repick" "SFX\Interface\ClickB.wav" 110 5 27 33 0 0 0 0 8 12 255 255 255 255 "Window\Í¼Æ¬_²Ëµ¥Ð¡ÍË.bmp" "Window\Í¼Æ¬_²Ëµ¥Ð¡ÍË1.bmp" 9 1
-STILLIMAGEBUTTON "Btn_Quit" "quitgame" "SFX\Interface\ClickB.wav" 136 5 27 33 0 0 0 0 10 12 255 255 255 255 "Window\Í¼Æ¬_²Ëµ¥´óÍË.bmp" "Window\Í¼Æ¬_²Ëµ¥´óÍË1.bmp" 11 1
-STILLIMAGEBUTTON "Btn_Chat" "chat" "SFX\Interface\ClickB.wav" -2000 -2000 27 30 0 0 0 0 12 18 255 255 255 255 "Window\Í¼Æ¬_GM.bmp" "Window\Í¼Æ¬_GM1.bmp" 13 1
-STILLIMAGEBUTTON "Btn_QuickKey" "wquickkey" "SFX\Interface\ClickB.wav" 56 5 27 33 0 0 0 0 14 18 255 255 255 255 "Window\Í¼Æ¬_²Ëµ¥ÏÉÔµ.bmp" "Window\Í¼Æ¬_²Ëµ¥ÏÉÔµ1.bmp" 15 1
+#§±§à§Õ§Þ§Ö§ß§ð§ê§Ü§Ñ §Þ§Ö§ß§ð§ê§Ü§Ú §Ó§ß§Ú§Ù§å
+DIALOG "Win_Main3" 0 0 334 84 0 1 10 "Window\¶Ô»°¿ò_±ê×¼±ß¿ò-x2.dds" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1
+STILLIMAGEBUTTON "Btn_GM" "wgm" "SFX\Interface\ClickB.wav" 4 10 54 66 0 0 0 0 2 36 255 255 255 255 "Window\Í¼Æ¬_GM-x2.bmp" "Window\Í¼Æ¬_GM1-x2.bmp" 3 1
+STILLIMAGEBUTTON "Btn_Help" "whelp" "SFX\Interface\ClickB.wav" 58 10 54 66 0 0 0 0 4 36 255 255 255 255 "Window\Í¼Æ¬_²Ëµ¥°ïÖú-x2.bmp" "Window\Í¼Æ¬_²Ëµ¥°ïÖú1-x2.bmp" 5 1
+STILLIMAGEBUTTON "Btn_Setting" "wsetting" "SFX\Interface\ClickB.wav" 166 10 54 66 0 0 0 0 6 36 255 255 255 255 "Window\Í¼Æ¬_²Ëµ¥ÏµÍ³ÉèÖÃ-x2.bmp" "Window\Í¼Æ¬_²Ëµ¥ÏµÍ³ÉèÖÃ1-x2.bmp" 7 1
+STILLIMAGEBUTTON "Btn_Repick" "repick" "SFX\Interface\ClickB.wav" 220 10 54 66 0 0 0 0 8 24 255 255 255 255 "Window\Í¼Æ¬_²Ëµ¥Ð¡ÍË-x2.bmp" "Window\Í¼Æ¬_²Ëµ¥Ð¡ÍË1-x2.bmp" 9 1
+STILLIMAGEBUTTON "Btn_Quit" "quitgame" "SFX\Interface\ClickB.wav" 272 10 54 66 0 0 0 0 10 24 255 255 255 255 "Window\Í¼Æ¬_²Ëµ¥´óÍË-x2.bmp" "Window\Í¼Æ¬_²Ëµ¥´óÍË1-x2.bmp" 11 1
+STILLIMAGEBUTTON "Btn_Chat" "chat" "SFX\Interface\ClickB.wav" -4000 -4000 54 60 0 0 0 0 12 36 255 255 255 255 "Window\Í¼Æ¬_GM-x2.bmp" "Window\Í¼Æ¬_GM1-x2.bmp" 13 1
+STILLIMAGEBUTTON "Btn_QuickKey" "wquickkey" "SFX\Interface\ClickB.wav" 112 10 54 66 0 0 0 0 14 36 255 255 255 255 "Window\Í¼Æ¬_²Ëµ¥ÏÉÔµ-x2.bmp" "Window\Í¼Æ¬_²Ëµ¥ÏÉÔµ1-x2.bmp" 15 1
