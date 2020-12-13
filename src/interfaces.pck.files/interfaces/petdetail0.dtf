@@ -1,27 +1,28 @@
-DIALOG "Win_PetDetail0" 0 0 311 440 0 1 10 "Window\对话框_标准边框x.dds" "" "" 0 0 283 33 "Window\对话框_标准关闭.tga" 59 33 96 96 96 255 1
-EDIT "Img_Title" "" "" 16 25 283 33 "Window\对话框_标题.tga" 2 15 255 255 255 "TEXT" 1 0 20
-LABEL "Title" "" "" 115 29 0 0 3 16 4 255 203 74 255
-IMAGEPICTURE "L" "" "" -6 -2 32 512 1 0 "Window\花纹_L.dds"
-IMAGEPICTURE "U" "" "" 25 -4 512 64 1 0 "Window\花纹_U.dds"
-IMAGEPICTURE "R" "" "" 286 -2 31 512 1 0 "Window\花纹_R.dds"
-IMAGEPICTURE "D" "" "" 25 409 512 32 1 0 "Window\花纹_D.dds"
-STILLIMAGEBUTTON "Btn_Cancel" "IDCANCEL" "SFX\Interface\ClickA.wav" 25 393 38 22 0 0 0 0 5 10 255 203 74 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 6 1
-EDIT "WPet1_Shap" "" "" 24 62 267 50 "Editbox\文本框_4.tga" 7 15 255 255 255 "TEXT" 1 0 20
-IMAGEPICTURE "Img_Icon" "" "" 33 70 32 32 1 0 "Window\图标_物品栏t.dds"
-LABEL "Lab_Name" "" "" 72 68 0 0 8 10 9 255 203 74 255
-LABEL "Txt_Name" "" "" 132 68 0 0 10 10 11 255 255 255 255
-LABEL "Lab_Level" "" "" 72 88 0 0 12 10 13 255 203 74 255
-LABEL "Txt_Level" "" "" 108 88 0 0 14 10 15 255 255 255 255
-LABEL "Lab_Exp" "" "" 184 89 0 0 16 10 17 255 203 74 255
-LABEL "Txt_Exp" "" "" 234 89 0 0 18 10 19 255 255 255 255
-EDIT "WPet2_Shap" "" "" 24 114 267 90 "Editbox\文本框_4.tga" 20 15 255 255 255 "TEXT" 1 0 20
-LABEL "Lab_13" "" "" 33 121 0 0 21 10 22 255 203 74 255
-LABEL "Txt_Food" "" "" 72 121 0 0 23 10 24 255 255 255 255
-LABEL "Lab_03" "" "" 33 140 0 0 25 10 26 255 203 74 255
-LABEL "Txt_MoveSpeed" "" "" 99 140 0 0 27 10 28 255 255 255 255
-LABEL "Lab_04" "" "" 33 160 0 0 29 10 30 255 203 74 255
-LABEL "Txt_Hunger" "" "" 84 160 55 15 31 10 32 255 255 255 255
-LABEL "Lab_05" "" "" 147 160 0 0 33 10 34 255 203 74 255
-LABEL "Txt_Loyalty" "" "" 198 160 111 15 35 10 36 255 255 255 255
-LABEL "Lab_06" "" "" 32 180 0 0 37 10 38 255 203 74 255
-LABEL "Txt_RequireLevel" "" "" 99 181 0 0 39 10 40 255 255 255 255
+#Инфа о маунте
+DIALOG "Win_PetDetail0" 0 0 622 880 0 1 10 "Window\对话框_标准边框x-x2.dds" "" "" 0 0 566 66 "Window\对话框_标准关闭-x2.tga" 118 66 96 96 96 255 1
+EDIT "Img_Title" "" "" 32 50 566 66 "Window\对话框_标题-x2.tga" 2 30 255 255 255 "TEXT" 1 0 20
+LABEL "Title" "" "" 230 58 0 0 3 32 4 255 203 74 255
+IMAGEPICTURE "L" "" "" -12 -4 64 1024 1 0 "Window\花纹_L.dds"
+IMAGEPICTURE "U" "" "" 50 -8 1024 128 1 0 "Window\花纹_U.dds"
+IMAGEPICTURE "R" "" "" 572 -4 62 1024 1 0 "Window\花纹_R.dds"
+IMAGEPICTURE "D" "" "" 50 818 1024 64 1 0 "Window\花纹_D.dds"
+STILLIMAGEBUTTON "Btn_Cancel" "IDCANCEL" "SFX\Interface\ClickA.wav" 50 786 76 44 0 0 0 0 5 20 255 203 74 255 "Button\按钮_文本1-x2.dds" "Button\按钮_文本2-x2.dds" 6 1
+EDIT "WPet1_Shap" "" "" 48 124 534 100 "Editbox\文本框_4-x2.tga" 7 30 255 255 255 "TEXT" 1 0 20
+IMAGEPICTURE "Img_Icon" "" "" 66 140 64 64 1 0 "Window\图标_物品栏t.dds"
+LABEL "Lab_Name" "" "" 144 136 0 0 8 20 9 255 203 74 255
+LABEL "Txt_Name" "" "" 264 136 0 0 10 20 11 255 255 255 255
+LABEL "Lab_Level" "" "" 144 176 0 0 12 20 13 255 203 74 255
+LABEL "Txt_Level" "" "" 216 176 0 0 14 20 15 255 255 255 255
+LABEL "Lab_Exp" "" "" 368 178 0 0 16 20 17 255 203 74 255
+LABEL "Txt_Exp" "" "" 468 178 0 0 18 20 19 255 255 255 255
+EDIT "WPet2_Shap" "" "" 48 228 534 180 "Editbox\文本框_4-x2.tga" 20 30 255 255 255 "TEXT" 1 0 20
+LABEL "Lab_13" "" "" 66 242 0 0 21 20 22 255 203 74 255
+LABEL "Txt_Food" "" "" 144 242 0 0 23 20 24 255 255 255 255
+LABEL "Lab_03" "" "" 66 280 0 0 25 20 26 255 203 74 255
+LABEL "Txt_MoveSpeed" "" "" 198 280 0 0 27 20 28 255 255 255 255
+LABEL "Lab_04" "" "" 66 320 0 0 29 20 30 255 203 74 255
+LABEL "Txt_Hunger" "" "" 168 320 110 30 31 20 32 255 255 255 255
+LABEL "Lab_05" "" "" 294 320 0 0 33 20 34 255 203 74 255
+LABEL "Txt_Loyalty" "" "" 410 320 222 30 35 20 36 255 255 255 255
+LABEL "Lab_06" "" "" 64 360 0 0 37 20 38 255 203 74 255
+LABEL "Txt_RequireLevel" "" "" 410 362 0 0 39 20 40 255 255 255 255
