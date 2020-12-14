@@ -1,7 +1,8 @@
-DIALOG "Win_FriendGroup" 0 0 200 130 0 1 10 "Window\对话框_标准边框1.dds" "" "" 0 0 215 33 "" 30 3 96 96 96 255 1
-STILLIMAGEBUTTON "Btn_Confirm" "confirm" "SFX\Interface\ClickB.wav" 38 93 48 24 0 0 0 0 2 10 255 255 255 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 3 1
-STILLIMAGEBUTTON "Btn_Cancel" "IDCANCEL" "SFX\Interface\ClickB.wav" 105 93 48 24 0 0 0 0 4 10 255 255 255 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 5 1
-LABEL "选择好友组" "" "" 8 9 0 0 6 16 7 255 203 74 255
-LABEL "Control_86612859" "" "" 19 58 160 16 10 10 11 255 203 74 255
-LIST "Lst_Group" "" "" 21 54 156 80 8 10 255 255 255 255 "Editbox\文本框_4d.dds" "Listbox\列表框_反显u.dds" "Listbox\列表框_上移u.bmp" "Listbox\列表框_下移u.bmp" "Listbox\列表框_滚动槽1u.tga" "Listbox\列表框_拖动按钮1u.bmp" 0 "0"
-COMBO "Combo_Group" "choosegroup" "" 21 36 157 18 9 10 255 255 255 255 "Editbox\combo.bmp" "Lst_Group"
+#Переместить друга в группу друзей
+DIALOG "Win_FriendGroup" 0 0 400 260 0 1 10 "Window\对话框_标准边框1-x2.dds" "" "" 0 0 430 66 "" 60 6 96 96 96 255 1
+STILLIMAGEBUTTON "Btn_Confirm" "confirm" "SFX\Interface\ClickB.wav" 76 186 96 48 0 0 0 0 2 20 255 255 255 255 "Button\按钮_文本1-x2.dds" "Button\按钮_文本2-x2.dds" 3 1
+STILLIMAGEBUTTON "Btn_Cancel" "IDCANCEL" "SFX\Interface\ClickB.wav" 210 186 96 48 0 0 0 0 4 20 255 255 255 255 "Button\按钮_文本1-x2.dds" "Button\按钮_文本2-x2.dds" 5 1
+LABEL "选择好友组" "" "" 16 18 0 0 6 32 7 255 203 74 255
+LABEL "Control_86612859" "" "" 38 116 320 32 10 20 11 255 203 74 255
+LIST "Lst_Group" "" "" 42 108 312 160 8 20 255 255 255 255 "Editbox\文本框_4d-x2.dds" "Listbox\列表框_反显u.dds" "Listbox\列表框_上移u-x2.bmp" "Listbox\列表框_下移u-x2.bmp" "Listbox\列表框_滚动槽1u-x2.tga" "Listbox\列表框_拖动按钮1u-x2.bmp" 0 "0"
+COMBO "Combo_Group" "choosegroup" "" 42 72 314 36 9 20 255 255 255 255 "Editbox\combo-x2.bmp" "Lst_Group"

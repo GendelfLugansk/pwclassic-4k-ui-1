@@ -1,11 +1,12 @@
-DIALOG "Win_FriendChat9" 0 0 260 300 0 1 10 "Window\对话框_标准边框1.dds" "" "" 0 0 400 33 "Window\对话框_标准关闭.tga" 27 6 96 96 96 150 1
-LABEL "Txt_ToWho" "" "" 7 9 0 0 2 10 3 255 255 255 255
-EDIT "Txt_Content" "" "" 6 244 205 50 "Editbox\文本框_4e.dds" 4 10 255 255 255 "TEXT" 0 1 80
-STILLIMAGEBUTTON "Btn_Popface" "popface" "SFX\Interface\ClickB.wav" 11 225 11 12 0 0 0 0 5 10 255 255 255 255 "Button\按钮_表情1a.tga" "Button\按钮_表情2a.tga" 6 1
-STILLIMAGEBUTTON "Btn_Send" "send" "SFX\Interface\ClickB.wav" 212 269 42 24 0 0 0 0 7 10 255 255 255 255 "Button\按钮_文本1b.dds" "Button\按钮_文本2b.dds" 8 1
-STILLIMAGEBUTTON "Btn_History" "history" "SFX\Interface\ClickB.wav" 212 244 42 24 0 0 0 0 9 10 255 255 255 255 "Button\按钮_文本1b.dds" "Button\按钮_文本2b.dds" 10 1
-STILLIMAGEBUTTON "Btn_DeleteAll" "delall" "SFX\Interface\ClickB.wav" 158 218 96 24 0 0 0 0 11 10 255 255 255 255 "Button\按钮_文本1b.dds" "Button\按钮_文本2b.dds" 12 1
-TEXT "Txt_Chat" "" "" 6 30 248 187 13 10 255 255 255 255 "Editbox\文本框_4e.dds" "Listbox\列表框_上移.tga" "Listbox\列表框_下移.tga" "Listbox\列表框_滚动槽1t.tga" "Listbox\列表框_拖动按钮1.bmp"
-CHECK "Chk_Save" "save" "SFX\Interface\ClickA.wav" 29 222 18 18 "Extra\复选框_标准.tga"
-LABEL "Control_65816190" "" "" 50 223 108 14 14 10 15 255 203 74 255
-STILLIMAGEBUTTON "Btn_Minimize" "minimize" "SFX\Interface\ClickB.wav" 218 10 12 15 0 0 0 0 16 15 255 255 255 255 "Button\按钮_下移1.tga" "Button\按钮_下移2.tga" 17 1
+#Чат с другом
+DIALOG "Win_FriendChat9" 0 0 520 600 0 1 10 "Window\对话框_标准边框1-x2.dds" "" "" 0 0 800 66 "Window\对话框_标准关闭-x2.tga" 54 12 96 96 96 150 1
+LABEL "Txt_ToWho" "" "" 14 18 0 0 2 20 3 255 255 255 255
+EDIT "Txt_Content" "" "" 12 488 410 100 "Editbox\文本框_4e-x2.dds" 4 20 255 255 255 "TEXT" 0 1 80
+STILLIMAGEBUTTON "Btn_Popface" "popface" "SFX\Interface\ClickB.wav" 22 450 22 24 0 0 0 0 5 20 255 255 255 255 "Button\按钮_表情1a-x2.tga" "Button\按钮_表情2a-x2.tga" 6 1
+STILLIMAGEBUTTON "Btn_Send" "send" "SFX\Interface\ClickB.wav" 424 538 84 48 0 0 0 0 7 20 255 255 255 255 "Button\按钮_文本1b-x2.dds" "Button\按钮_文本2b-x2.dds" 8 1
+STILLIMAGEBUTTON "Btn_History" "history" "SFX\Interface\ClickB.wav" 424 488 84 48 0 0 0 0 9 20 255 255 255 255 "Button\按钮_文本1b-x2.dds" "Button\按钮_文本2b-x2.dds" 10 1
+STILLIMAGEBUTTON "Btn_DeleteAll" "delall" "SFX\Interface\ClickB.wav" 316 436 192 48 0 0 0 0 11 20 255 255 255 255 "Button\按钮_文本1b-x2.dds" "Button\按钮_文本2b-x2.dds" 12 1
+TEXT "Txt_Chat" "" "" 12 60 496 374 13 20 255 255 255 255 "Editbox\文本框_4e-x2.dds" "Listbox\列表框_上移-x2.tga" "Listbox\列表框_下移-x2.tga" "Listbox\列表框_滚动槽1t-x2.tga" "Listbox\列表框_拖动按钮1-x2.bmp"
+CHECK "Chk_Save" "save" "SFX\Interface\ClickA.wav" 58 444 36 36 "Extra\复选框_标准-x2.tga"
+LABEL "Control_65816190" "" "" 100 446 216 28 14 20 15 255 203 74 255
+STILLIMAGEBUTTON "Btn_Minimize" "minimize" "SFX\Interface\ClickB.wav" 436 20 24 30 0 0 0 0 16 30 255 255 255 255 "Button\按钮_下移1-x2.tga" "Button\按钮_下移2-x2.tga" 17 1
