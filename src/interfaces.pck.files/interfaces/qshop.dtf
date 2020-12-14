@@ -1,43 +1,44 @@
-DIALOG "Win_QShop" 0 0 640 480 0 1 10 "Window\对话框_标准边框x.dds" "" "" 0 0 -1 -1 "Window\对话框_标准关闭.tga" 60 33 96 96 96 255 1
-EDIT "titleimg" "" "" 17 25 610 33 "Window\对话框_标题.tga" 2 15 255 255 255 "TEXT" 1 0 20
-LABEL "titletxt" "" "" 269 31 105 24 3 16 4 255 203 74 255
-IMAGEPICTURE "Img_U" "" "" 25 -3 591 64 1 0 "Window\花纹_UA.dds"
-IMAGEPICTURE "Img_L" "" "" -6 -2 32 560 1 0 "Window\花纹_L.dds"
-IMAGEPICTURE "Img_D" "" "" 25 449 591 35 1 0 "Window\花纹_DA.dds"
-IMAGEPICTURE "Img_R" "" "" 615 -2 32 560 1 0 "Window\花纹_R.dds"
-EDIT "itemback" "" "" 28 114 180 342 "InGameHintFrame-x1.dds" 5 15 255 255 255 "TEXT" 1 0 20
-LABEL "cash" "" "" 316 436 42 16 6 10 7 255 203 74 255
-STILLIMAGEBUTTON "Btn_MainType0" "maintype0" "" 82 59 57 25 0 0 0 0 8 10 255 255 255 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 9 1
-STILLIMAGEBUTTON "Btn_MainType1" "maintype1" "" 142 59 57 25 0 0 0 0 10 10 255 255 255 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 11 1
-STILLIMAGEBUTTON "Btn_MainType2" "maintype2" "" 202 59 57 25 0 0 0 0 12 10 255 255 255 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 13 1
-STILLIMAGEBUTTON "Btn_MainType3" "maintype3" "" 262 59 57 25 0 0 0 0 14 10 255 255 255 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 15 1
-STILLIMAGEBUTTON "Btn_MainType4" "maintype4" "" 322 59 57 25 0 0 0 0 16 10 255 255 255 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 17 1
-STILLIMAGEBUTTON "Btn_MainType5" "maintype5" "" 382 59 57 25 0 0 0 0 18 10 255 255 255 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 19 1
-STILLIMAGEBUTTON "Btn_MainType6" "maintype6" "" 442 59 57 25 0 0 0 0 20 10 255 255 255 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 21 1
-STILLIMAGEBUTTON "Btn_MainType7" "maintype7" "" 502 59 57 25 0 0 0 0 22 10 255 255 255 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 23 1
-LABEL "Txt_Cash" "" "" 300 436 190 15 24 10 25 255 255 255 255
-LABEL "Lab_Dialog0" "" "" 214 114 190 75 26 16 27 255 255 255 255
-LABEL "Lab_Dialog1" "" "" 410 114 190 75 28 12 29 255 255 255 255
-LABEL "Lab_Dialog2" "" "" 214 193 190 75 30 12 31 255 255 255 255
-LABEL "Lab_Dialog3" "" "" 410 193 190 75 32 12 33 255 255 255 255
-LABEL "Lab_Dialog4" "" "" 214 272 190 75 34 12 35 255 255 255 255
-LABEL "Lab_Dialog5" "" "" 410 272 190 75 36 12 37 255 255 255 255
-LABEL "Lab_Dialog6" "" "" 214 351 190 75 38 12 39 255 255 255 255
-LABEL "Lab_Dialog7" "" "" 410 351 190 75 40 12 41 255 255 255 255
-STILLIMAGEBUTTON "Btn_GetCash" "payment" "" 213 431 75 25 0 0 0 0 42 10 125 223 128 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 43 1
-IMAGEPICTURE "Img_Item" "" "" 54 139 128 128 1 0 ""
-LABEL "Txt_ItemName" "" "" 117 115 0 0 44 16 45 255 203 74 255
-LABEL "Txt_ItemDesc" "" "" 39 270 160 180 46 10 47 255 255 255 255
-STILLIMAGEBUTTON "Btn_SubType-1" "subtype-1" "" 547 87 63 21 0 0 0 0 48 10 255 255 255 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 49 1
-STILLIMAGEBUTTON "Btn_SubType0" "subtype0" "" 27 87 63 21 0 0 0 0 50 10 255 255 255 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 51 1
-STILLIMAGEBUTTON "Btn_SubType1" "subtype1" "" 92 87 63 21 0 0 0 0 52 10 255 255 255 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 53 1
-STILLIMAGEBUTTON "Btn_SubType2" "subtype2" "" 157 87 63 21 0 0 0 0 54 10 255 255 255 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 55 1
-STILLIMAGEBUTTON "Btn_SubType3" "subtype3" "" 222 87 63 21 0 0 0 0 56 10 255 255 255 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 57 1
-STILLIMAGEBUTTON "Btn_SubType4" "subtype4" "" 287 87 63 21 0 0 0 0 58 10 255 255 255 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 59 1
-STILLIMAGEBUTTON "Btn_SubType5" "subtype5" "" 352 87 63 21 0 0 0 0 60 10 255 255 255 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 61 1
-STILLIMAGEBUTTON "Btn_SubType6" "subtype6" "" 417 87 63 21 0 0 0 0 62 10 255 255 255 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 63 1
-STILLIMAGEBUTTON "Btn_SubType7" "subtype7" "" 482 87 63 21 0 0 0 0 64 10 255 255 255 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 65 1
-SCROLL "Scl_Item" "" "" 603 112 15 315 "Listbox\列表框_滚动槽1u.tga" "Listbox\列表框_上移.bmp" "Listbox\列表框_下移.bmp" "Listbox\列表框_拖动按钮1u.bmp"
-LABEL "Txt_Notify" "" "" 450 436 116 15 66 10 67 255 0 0 255
-RADIO "Btn_QShop" "qshop" "" -2000 -2000 26 26 "Button\乾坤袋.tga" 1 1
-RADIO "Btn_BackShop" "backshop" "" -2000 -2000 26 26 "Button\鸿利商城.tga" 2 1
+#Шоп
+DIALOG "Win_QShop" 0 0 1280 960 0 1 10 "Window\对话框_标准边框x-x2.dds" "" "" 0 0 -2 -2 "Window\对话框_标准关闭-x2.tga" 120 66 96 96 96 255 1
+EDIT "titleimg" "" "" 34 50 1220 66 "Window\对话框_标题-x2.tga" 2 30 255 255 255 "TEXT" 1 0 20
+LABEL "titletxt" "" "" 548 62 210 48 3 32 4 255 203 74 255
+IMAGEPICTURE "Img_U" "" "" 50 -6 1182 128 1 0 "Window\花纹_UA.dds"
+IMAGEPICTURE "Img_L" "" "" -12 -4 64 1120 1 0 "Window\花纹_L.dds"
+IMAGEPICTURE "Img_D" "" "" 50 898 1182 70 1 0 "Window\花纹_DA.dds"
+IMAGEPICTURE "Img_R" "" "" 1230 -4 64 1120 1 0 "Window\花纹_R.dds"
+EDIT "itemback" "" "" 56 228 360 684 "InGameHintFrame-x2.dds" 5 30 255 255 255 "TEXT" 1 0 20
+LABEL "cash" "" "" 632 872 84 32 6 20 7 255 203 74 255
+STILLIMAGEBUTTON "Btn_MainType0" "maintype0" "" 164 118 114 50 0 0 0 0 8 20 255 255 255 255 "Button\按钮_文本1-x2.dds" "Button\按钮_文本2-x2.dds" 9 1
+STILLIMAGEBUTTON "Btn_MainType1" "maintype1" "" 284 118 114 50 0 0 0 0 10 20 255 255 255 255 "Button\按钮_文本1-x2.dds" "Button\按钮_文本2-x2.dds" 11 1
+STILLIMAGEBUTTON "Btn_MainType2" "maintype2" "" 404 118 114 50 0 0 0 0 12 20 255 255 255 255 "Button\按钮_文本1-x2.dds" "Button\按钮_文本2-x2.dds" 13 1
+STILLIMAGEBUTTON "Btn_MainType3" "maintype3" "" 524 118 114 50 0 0 0 0 14 20 255 255 255 255 "Button\按钮_文本1-x2.dds" "Button\按钮_文本2-x2.dds" 15 1
+STILLIMAGEBUTTON "Btn_MainType4" "maintype4" "" 644 118 114 50 0 0 0 0 16 20 255 255 255 255 "Button\按钮_文本1-x2.dds" "Button\按钮_文本2-x2.dds" 17 1
+STILLIMAGEBUTTON "Btn_MainType5" "maintype5" "" 764 118 114 50 0 0 0 0 18 20 255 255 255 255 "Button\按钮_文本1-x2.dds" "Button\按钮_文本2-x2.dds" 19 1
+STILLIMAGEBUTTON "Btn_MainType6" "maintype6" "" 884 118 114 50 0 0 0 0 20 20 255 255 255 255 "Button\按钮_文本1-x2.dds" "Button\按钮_文本2-x2.dds" 21 1
+STILLIMAGEBUTTON "Btn_MainType7" "maintype7" "" 1004 118 114 50 0 0 0 0 22 20 255 255 255 255 "Button\按钮_文本1-x2.dds" "Button\按钮_文本2-x2.dds" 23 1
+LABEL "Txt_Cash" "" "" 600 872 380 30 24 20 25 255 255 255 255
+LABEL "Lab_Dialog0" "" "" 428 228 380 150 26 32 27 255 255 255 255
+LABEL "Lab_Dialog1" "" "" 820 228 380 150 28 24 29 255 255 255 255
+LABEL "Lab_Dialog2" "" "" 428 386 380 150 30 24 31 255 255 255 255
+LABEL "Lab_Dialog3" "" "" 820 386 380 150 32 24 33 255 255 255 255
+LABEL "Lab_Dialog4" "" "" 428 544 380 150 34 24 35 255 255 255 255
+LABEL "Lab_Dialog5" "" "" 820 544 380 150 36 24 37 255 255 255 255
+LABEL "Lab_Dialog6" "" "" 428 702 380 150 38 24 39 255 255 255 255
+LABEL "Lab_Dialog7" "" "" 820 702 380 150 40 24 41 255 255 255 255
+STILLIMAGEBUTTON "Btn_GetCash" "payment" "" 426 862 150 50 0 0 0 0 42 20 125 223 128 255 "Button\按钮_文本1-x2.dds" "Button\按钮_文本2-x2.dds" 43 1
+IMAGEPICTURE "Img_Item" "" "" 108 278 256 256 1 0 ""
+LABEL "Txt_ItemName" "" "" 234 230 0 0 44 32 45 255 203 74 255
+LABEL "Txt_ItemDesc" "" "" 78 540 320 360 46 20 47 255 255 255 255
+STILLIMAGEBUTTON "Btn_SubType-1" "subtype-1" "" 1094 174 126 42 0 0 0 0 48 20 255 255 255 255 "Button\按钮_文本1-x2.dds" "Button\按钮_文本2-x2.dds" 49 1
+STILLIMAGEBUTTON "Btn_SubType0" "subtype0" "" 54 174 126 42 0 0 0 0 50 20 255 255 255 255 "Button\按钮_文本1-x2.dds" "Button\按钮_文本2-x2.dds" 51 1
+STILLIMAGEBUTTON "Btn_SubType1" "subtype1" "" 184 174 126 42 0 0 0 0 52 20 255 255 255 255 "Button\按钮_文本1-x2.dds" "Button\按钮_文本2-x2.dds" 53 1
+STILLIMAGEBUTTON "Btn_SubType2" "subtype2" "" 314 174 126 42 0 0 0 0 54 20 255 255 255 255 "Button\按钮_文本1-x2.dds" "Button\按钮_文本2-x2.dds" 55 1
+STILLIMAGEBUTTON "Btn_SubType3" "subtype3" "" 444 174 126 42 0 0 0 0 56 20 255 255 255 255 "Button\按钮_文本1-x2.dds" "Button\按钮_文本2-x2.dds" 57 1
+STILLIMAGEBUTTON "Btn_SubType4" "subtype4" "" 574 174 126 42 0 0 0 0 58 20 255 255 255 255 "Button\按钮_文本1-x2.dds" "Button\按钮_文本2-x2.dds" 59 1
+STILLIMAGEBUTTON "Btn_SubType5" "subtype5" "" 704 174 126 42 0 0 0 0 60 20 255 255 255 255 "Button\按钮_文本1-x2.dds" "Button\按钮_文本2-x2.dds" 61 1
+STILLIMAGEBUTTON "Btn_SubType6" "subtype6" "" 834 174 126 42 0 0 0 0 62 20 255 255 255 255 "Button\按钮_文本1-x2.dds" "Button\按钮_文本2-x2.dds" 63 1
+STILLIMAGEBUTTON "Btn_SubType7" "subtype7" "" 964 174 126 42 0 0 0 0 64 20 255 255 255 255 "Button\按钮_文本1-x2.dds" "Button\按钮_文本2-x2.dds" 65 1
+SCROLL "Scl_Item" "" "" 1206 224 30 630 "Listbox\列表框_滚动槽1u-x2.tga" "Listbox\列表框_上移-x2.bmp" "Listbox\列表框_下移-x2.bmp" "Listbox\列表框_拖动按钮1u-x2.bmp"
+LABEL "Txt_Notify" "" "" 900 872 232 30 66 20 67 255 0 0 255
+RADIO "Btn_QShop" "qshop" "" -4000 -4000 52 52 "Button\乾坤袋-x2.tga" 1 1
+RADIO "Btn_BackShop" "backshop" "" -4000 -4000 52 52 "Button\鸿利商城-x2.tga" 2 1
