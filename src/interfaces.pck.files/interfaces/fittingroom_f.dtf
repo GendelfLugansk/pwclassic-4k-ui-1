@@ -1,17 +1,18 @@
-DIALOG "Win_FittingRoomF" 0 0 311 440 0 1 10 "Window\对话框_标准边框x.dds" "" "" 0 0 283 33 "Window\对话框_标准关闭.tga" 59 33 96 96 96 255 1
-EDIT "Img_Title" "" "" 16 25 283 33 "Window\对话框_标题.tga" 2 15 255 255 255 "TEXT" 1 0 20
-SCROLL "Scl_Item" "" "" 285 283 9 133 "Listbox\列表框_滚动槽1s.tga" "Listbox\列表框_无.bmp" "Listbox\列表框_无.bmp" "Listbox\列表框_拖动按钮2us.bmp"
-IMAGEPICTURE "L" "" "" -6 -2 32 512 1 0 "Window\花纹_L.dds"
-IMAGEPICTURE "U" "" "" 25 -4 512 64 1 0 "Window\花纹_U.dds"
-IMAGEPICTURE "R" "" "" 286 -2 31 512 1 0 "Window\花纹_R.dds"
-IMAGEPICTURE "D" "" "" 25 409 512 32 1 0 "Window\花纹_D.dds"
-LABEL "Control_810189504" "" "" 125 30 0 0 3 16 4 255 203 74 255
-IMAGEPICTURE "Control_196572560" "" "" 4 0 305 431 1 0 "人鱼传说新界面\未命名-1副本.dds"
-IMAGEPICTURE "Img_Char" "" "" 27 63 257 323 0 0 ""
-IMAGEPICTURE "Equip_13" "" "" 245 149 32 32 1 0 "Window\图标_上衣f.dds"
-IMAGEPICTURE "Equip_14" "" "" 245 260 32 32 1 0 "Window\图标_裤子f.dds"
-IMAGEPICTURE "Equip_15" "" "" 36 260 32 32 1 0 "Window\图标_鞋f.dds"
-IMAGEPICTURE "Equip_16" "" "" 36 149 32 32 1 0 "Window\图标_护腕.dds"
-STILLIMAGEBUTTON "Btn_LeftTurn" "" "" 116 380 32 32 0 0 0 0 5 10 255 255 255 255 "Button\左屏.dds" "Button\左屏1.dds" 6 1
-STILLIMAGEBUTTON "Btn_RightTurn" "" "" 161 380 32 32 0 0 0 0 7 10 255 255 255 255 "Button\右屏.dds" "Button\右屏1.dds" 8 1
-IMAGEPICTURE "Equip_25" "" "" -2000 -2000 32 32 1 0 "Window\帽子时装.dds"
+#Примерка Ж
+DIALOG "Win_FittingRoomF" 0 0 622 880 0 1 10 "Window\对话框_标准边框x-x2.dds" "" "" 0 0 566 66 "Window\对话框_标准关闭-x2.tga" 118 66 96 96 96 255 1
+EDIT "Img_Title" "" "" 32 50 566 66 "Window\对话框_标题-x2.tga" 2 30 255 255 255 "TEXT" 1 0 20
+SCROLL "Scl_Item" "" "" 570 566 18 266 "Listbox\列表框_滚动槽1s-x2.tga" "Listbox\列表框_无.bmp" "Listbox\列表框_无.bmp" "Listbox\列表框_拖动按钮2us-x2.bmp"
+IMAGEPICTURE "L" "" "" -12 -4 64 1024 1 0 "Window\花纹_L.dds"
+IMAGEPICTURE "U" "" "" 50 -8 1024 128 1 0 "Window\花纹_U.dds"
+IMAGEPICTURE "R" "" "" 572 -4 62 1024 1 0 "Window\花纹_R.dds"
+IMAGEPICTURE "D" "" "" 50 818 1024 64 1 0 "Window\花纹_D.dds"
+LABEL "Control_810189504" "" "" 250 60 0 0 3 32 4 255 203 74 255
+IMAGEPICTURE "Control_196572560" "" "" 8 0 610 862 1 0 "人鱼传说新界面\未命名-1副本-x2.dds"
+IMAGEPICTURE "Img_Char" "" "" 54 126 514 646 0 0 ""
+IMAGEPICTURE "Equip_13" "" "" 490 298 64 64 1 0 "Window\图标_上衣f-x2.dds"
+IMAGEPICTURE "Equip_14" "" "" 490 520 64 64 1 0 "Window\图标_裤子f-x2.dds"
+IMAGEPICTURE "Equip_15" "" "" 72 520 64 64 1 0 "Window\图标_鞋f-x2.dds"
+IMAGEPICTURE "Equip_16" "" "" 72 298 64 64 1 0 "Window\图标_护腕-x2.dds"
+STILLIMAGEBUTTON "Btn_LeftTurn" "" "" 232 760 64 64 0 0 0 0 5 20 255 255 255 255 "Button\左屏-x2.dds" "Button\左屏1-x2.dds" 6 1
+STILLIMAGEBUTTON "Btn_RightTurn" "" "" 322 760 64 64 0 0 0 0 7 20 255 255 255 255 "Button\右屏-x2.dds" "Button\右屏1-x2.dds" 8 1
+IMAGEPICTURE "Equip_25" "" "" -4000 -4000 64 64 1 0 "Window\帽子时装-x2.dds"
