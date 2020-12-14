@@ -1,61 +1,62 @@
-DIALOG "Win_SettingVideo" 0 0 311 440 0 1 10 "Window\对话框_标准边框x.dds" "" "" 0 0 283 33 "Window\对话框_标准关闭.tga" 59 33 96 96 96 255 1
-EDIT "Img_Title" "" "" 16 25 283 33 "Window\对话框_标题.tga" 2 15 255 255 255 "TEXT" 1 0 20
-IMAGEPICTURE "L" "" "" -6 -2 32 512 1 0 "Window\花纹_L.dds"
-IMAGEPICTURE "U" "" "" 25 -4 512 64 1 0 "Window\花纹_U.dds"
-IMAGEPICTURE "R" "" "" 286 -2 31 512 1 0 "Window\花纹_R.dds"
-IMAGEPICTURE "D" "" "" 25 409 512 32 1 0 "Window\花纹_D.dds"
-LABEL "title" "" "" 116 29 0 0 3 16 4 255 203 74 255
-EDIT "BG1" "" "" 22 101 270 220 "Editbox\文本框_4c.dds" 5 15 255 255 255 "TEXT" 1 0 20
-EDIT "BG2" "" "" 22 339 270 50 "Editbox\文本框_4c.dds" 6 15 255 255 255 "TEXT" 1 0 20
-STILLIMAGEBUTTON "Btn_Game" "gamesetting" "SFX\Interface\ClickB.wav" 149 59 64 24 0 0 0 0 7 10 255 255 255 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 8 1
-STILLIMAGEBUTTON "Btn_Video" "videosetting" "SFX\Interface\ClickB.wav" 85 59 64 24 0 0 0 0 9 10 255 255 255 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 10 1
-STILLIMAGEBUTTON "Btn_System" "systemsetting" "SFX\Interface\ClickB.wav" 21 59 64 24 0 0 0 0 11 10 255 255 255 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 12 1
-STILLIMAGEBUTTON "Btn_Blacklist" "blacklist" "SFX\Interface\ClickB.wav" 213 59 80 24 0 0 0 0 13 10 255 255 255 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 14 1
-STILLIMAGEBUTTON "Btn_Default" "default" "SFX\Interface\ClickB.wav" 25 393 40 24 0 0 0 0 15 10 255 255 255 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 16 1
-STILLIMAGEBUTTON "Btn_Apply" "apply" "SFX\Interface\ClickB.wav" 164 394 40 24 0 0 0 0 17 10 255 255 255 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 18 1
-STILLIMAGEBUTTON "Btn_Decide" "confirm" "SFX\Interface\ClickB.wav" 207 394 40 24 0 0 0 0 19 10 255 255 255 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 20 1
-STILLIMAGEBUTTON "Btn_Exit" "IDCANCEL" "SFX\Interface\ClickB.wav" 250 394 40 24 0 0 0 0 21 10 255 255 255 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 22 1
-LABEL "聊天栏设置" "" "" 22 85 60 15 23 10 24 255 203 74 255
-LABEL "Control_110234292" "" "" 169 146 107 14 25 10 26 255 255 255 255
-LABEL "Control_301097886" "" "" 169 126 88 14 27 10 28 255 255 255 255
-LABEL "Control_227619345" "" "" 61 146 85 14 29 10 30 255 255 255 255
-LABEL "Control_43151850" "" "" 60 126 85 15 31 10 32 255 255 255 255
-LABEL "Control_831707316" "" "" 47 107 157 14 33 10 34 255 255 255 255
-LABEL "Control_695831236" "" "" 48 264 134 14 35 10 36 255 255 255 255
-LABEL "Control_587995728" "" "" 135 282 18 14 37 10 38 255 255 255 255
-LABEL "Control_230569780" "" "" 273 282 16 14 39 10 40 255 255 255 255
-LABEL "Control_905430680" "" "" 49 185 94 14 41 10 42 255 255 255 255
-LABEL "Control_96598850" "" "" 169 186 97 14 43 10 44 255 255 255 255
-LABEL "Control_351911721" "" "" 48 225 106 14 45 10 46 255 255 255 255
-CHECK "Chk_Player" "player" "SFX\Interface\ClickA.wav" 146 145 18 18 "Extra\复选框_标准.tga"
-CHECK "Chk_OtherPlayer" "otherplayer" "SFX\Interface\ClickA.wav" 26 106 18 18 "Extra\复选框_标准.tga"
-CHECK "Chk_Name" "" "SFX\Interface\ClickA.wav" 38 125 18 18 "Extra\复选框_标准.tga"
-CHECK "Chk_Insignia" "" "SFX\Interface\ClickA.wav" 38 145 18 18 "Extra\复选框_标准.tga"
-CHECK "Chk_Title" "" "SFX\Interface\ClickA.wav" 146 125 18 18 "Extra\复选框_标准.tga"
-CHECK "Chk_ModelLimit" "" "SFX\Interface\ClickA.wav" 26 263 18 18 "Extra\复选框_标准.tga"
-CHECK "Chk_Monster" "" "SFX\Interface\ClickA.wav" 26 184 18 18 "Extra\复选框_标准.tga"
-CHECK "Chk_NPC" "" "SFX\Interface\ClickA.wav" 146 185 18 18 "Extra\复选框_标准.tga"
-CHECK "Chk_Item" "" "SFX\Interface\ClickA.wav" 26 224 18 18 "Extra\复选框_标准.tga"
-SLIDER "Slider_ModelLimit" "modellimit" "" 153 286 121 9 "Listbox\列表框_滚动槽2.tga" "Listbox\列表框_拖动按钮2.bmp" 100
-CHECK "Chk_SelfName" "" "SFX\Interface\ClickA.wav" 26 204 18 18 "Extra\复选框_标准.tga"
-LABEL "显示自己的名字" "" "" 49 204 107 14 47 10 48 255 255 255 255
-CHECK "Chk_Talk" "" "SFX\Interface\ClickA.wav" 38 165 18 18 "Extra\复选框_标准.tga"
-CHECK "Chk_Talkbubble" "player" "SFX\Interface\ClickA.wav" 146 165 18 18 "Extra\复选框_标准.tga"
-LABEL "Control_76593939" "" "" 61 166 79 17 49 10 50 255 255 255 255
-LABEL "Talkbubble" "" "" 169 166 83 18 51 10 52 255 255 255 255
-LABEL "Control_13746348" "" "" 22 322 72 15 53 10 54 255 203 74 255
-CHECK "Chk_MapMonster" "" "SFX\Interface\ClickA.wav" 168 346 18 18 "Extra\复选框_标准.tga"
-CHECK "Chk_MapNPC" "" "SFX\Interface\ClickA.wav" 26 344 18 18 "Extra\复选框_标准.tga"
-CHECK "Chk_MapPlayer" "" "SFX\Interface\ClickA.wav" 26 365 18 18 "Extra\复选框_标准.tga"
-LABEL "Control_434132028" "" "" 191 347 93 15 55 10 56 255 255 255 255
-LABEL "Control_5808192" "" "" 49 346 92 14 57 10 58 255 255 255 255
-LABEL "Control_74013646" "" "" 49 367 110 14 59 10 60 255 255 255 255
-LABEL "Control_91016838" "" "" 34 300 103 15 61 10 62 255 255 255 255
-LABEL "Control_1593328" "" "" 48 244 128 14 63 10 64 255 255 255 255
-CHECK "Chk_Personize" "personize" "SFX\Interface\ClickA.wav" 26 243 18 18 "Extra\复选框_标准.tga"
-LABEL "Control_241121184" "" "" 135 300 15 15 65 10 66 255 255 255 255
-LABEL "Control_757588832" "" "" 273 300 19 15 67 10 68 255 255 255 255
-SLIDER "Slider_SpEffect" "speffect" "" 152 304 120 9 "Listbox\列表框_滚动槽2.tga" "Listbox\列表框_拖动按钮2.bmp" 3
-LABEL "Control_97319990" "" "" 34 282 82 16 69 10 70 255 255 255 255
-LABEL "Control_211277176" "" "" 152 225 79 13 71 10 72 255 255 255 255
-LABEL "Control_163331316" "" "" 178 264 82 15 73 10 74 255 255 255 255
+#Настройки (интерфейс)
+DIALOG "Win_SettingVideo" 0 0 622 880 0 1 10 "Window\对话框_标准边框x-x2.dds" "" "" 0 0 566 66 "Window\对话框_标准关闭-x2.tga" 118 66 96 96 96 255 1
+EDIT "Img_Title" "" "" 32 50 566 66 "Window\对话框_标题-x2.tga" 2 30 255 255 255 "TEXT" 1 0 20
+IMAGEPICTURE "L" "" "" -12 -4 64 1024 1 0 "Window\花纹_L.dds"
+IMAGEPICTURE "U" "" "" 50 -8 1024 128 1 0 "Window\花纹_U.dds"
+IMAGEPICTURE "R" "" "" 572 -4 62 1024 1 0 "Window\花纹_R.dds"
+IMAGEPICTURE "D" "" "" 50 818 1024 64 1 0 "Window\花纹_D.dds"
+LABEL "title" "" "" 232 58 0 0 3 32 4 255 203 74 255
+EDIT "BG1" "" "" 44 202 540 440 "Editbox\文本框_4c-x2.dds" 5 30 255 255 255 "TEXT" 1 0 20
+EDIT "BG2" "" "" 44 678 540 100 "Editbox\文本框_4c-x2.dds" 6 30 255 255 255 "TEXT" 1 0 20
+STILLIMAGEBUTTON "Btn_Game" "gamesetting" "SFX\Interface\ClickB.wav" 298 118 128 48 0 0 0 0 7 20 255 255 255 255 "Button\按钮_文本1-x2.dds" "Button\按钮_文本2-x2.dds" 8 1
+STILLIMAGEBUTTON "Btn_Video" "videosetting" "SFX\Interface\ClickB.wav" 170 118 128 48 0 0 0 0 9 20 255 255 255 255 "Button\按钮_文本1-x2.dds" "Button\按钮_文本2-x2.dds" 10 1
+STILLIMAGEBUTTON "Btn_System" "systemsetting" "SFX\Interface\ClickB.wav" 42 118 128 48 0 0 0 0 11 20 255 255 255 255 "Button\按钮_文本1-x2.dds" "Button\按钮_文本2-x2.dds" 12 1
+STILLIMAGEBUTTON "Btn_Blacklist" "blacklist" "SFX\Interface\ClickB.wav" 426 118 160 48 0 0 0 0 13 20 255 255 255 255 "Button\按钮_文本1-x2.dds" "Button\按钮_文本2-x2.dds" 14 1
+STILLIMAGEBUTTON "Btn_Default" "default" "SFX\Interface\ClickB.wav" 50 786 80 48 0 0 0 0 15 20 255 255 255 255 "Button\按钮_文本1-x2.dds" "Button\按钮_文本2-x2.dds" 16 1
+STILLIMAGEBUTTON "Btn_Apply" "apply" "SFX\Interface\ClickB.wav" 328 788 80 48 0 0 0 0 17 20 255 255 255 255 "Button\按钮_文本1-x2.dds" "Button\按钮_文本2-x2.dds" 18 1
+STILLIMAGEBUTTON "Btn_Decide" "confirm" "SFX\Interface\ClickB.wav" 414 788 80 48 0 0 0 0 19 20 255 255 255 255 "Button\按钮_文本1-x2.dds" "Button\按钮_文本2-x2.dds" 20 1
+STILLIMAGEBUTTON "Btn_Exit" "IDCANCEL" "SFX\Interface\ClickB.wav" 500 788 80 48 0 0 0 0 21 20 255 255 255 255 "Button\按钮_文本1-x2.dds" "Button\按钮_文本2-x2.dds" 22 1
+LABEL "聊天栏设置" "" "" 44 170 120 30 23 20 24 255 203 74 255
+LABEL "Control_110234292" "" "" 338 292 214 28 25 20 26 255 255 255 255
+LABEL "Control_301097886" "" "" 338 252 176 28 27 20 28 255 255 255 255
+LABEL "Control_227619345" "" "" 122 292 170 28 29 20 30 255 255 255 255
+LABEL "Control_43151850" "" "" 120 252 170 30 31 20 32 255 255 255 255
+LABEL "Control_831707316" "" "" 94 214 314 28 33 20 34 255 255 255 255
+LABEL "Control_695831236" "" "" 96 528 268 28 35 20 36 255 255 255 255
+LABEL "Control_587995728" "" "" 270 564 36 28 37 20 38 255 255 255 255
+LABEL "Control_230569780" "" "" 546 564 32 28 39 20 40 255 255 255 255
+LABEL "Control_905430680" "" "" 98 370 188 28 41 20 42 255 255 255 255
+LABEL "Control_96598850" "" "" 338 372 194 28 43 20 44 255 255 255 255
+LABEL "Control_351911721" "" "" 96 450 212 28 45 20 46 255 255 255 255
+CHECK "Chk_Player" "player" "SFX\Interface\ClickA.wav" 292 290 36 36 "Extra\复选框_标准-x2.tga"
+CHECK "Chk_OtherPlayer" "otherplayer" "SFX\Interface\ClickA.wav" 52 212 36 36 "Extra\复选框_标准-x2.tga"
+CHECK "Chk_Name" "" "SFX\Interface\ClickA.wav" 76 250 36 36 "Extra\复选框_标准-x2.tga"
+CHECK "Chk_Insignia" "" "SFX\Interface\ClickA.wav" 76 290 36 36 "Extra\复选框_标准-x2.tga"
+CHECK "Chk_Title" "" "SFX\Interface\ClickA.wav" 292 250 36 36 "Extra\复选框_标准-x2.tga"
+CHECK "Chk_ModelLimit" "" "SFX\Interface\ClickA.wav" 52 526 36 36 "Extra\复选框_标准-x2.tga"
+CHECK "Chk_Monster" "" "SFX\Interface\ClickA.wav" 52 368 36 36 "Extra\复选框_标准-x2.tga"
+CHECK "Chk_NPC" "" "SFX\Interface\ClickA.wav" 292 370 36 36 "Extra\复选框_标准-x2.tga"
+CHECK "Chk_Item" "" "SFX\Interface\ClickA.wav" 52 448 36 36 "Extra\复选框_标准-x2.tga"
+SLIDER "Slider_ModelLimit" "modellimit" "" 306 572 242 18 "Listbox\列表框_滚动槽2-x2.tga" "Listbox\列表框_拖动按钮2-x2.bmp" 100
+CHECK "Chk_SelfName" "" "SFX\Interface\ClickA.wav" 52 408 36 36 "Extra\复选框_标准-x2.tga"
+LABEL "显示自己的名字" "" "" 98 408 214 28 47 20 48 255 255 255 255
+CHECK "Chk_Talk" "" "SFX\Interface\ClickA.wav" 76 330 36 36 "Extra\复选框_标准-x2.tga"
+CHECK "Chk_Talkbubble" "player" "SFX\Interface\ClickA.wav" 292 330 36 36 "Extra\复选框_标准-x2.tga"
+LABEL "Control_76593939" "" "" 122 332 158 34 49 20 50 255 255 255 255
+LABEL "Talkbubble" "" "" 338 332 166 36 51 20 52 255 255 255 255
+LABEL "Control_13746348" "" "" 44 644 144 30 53 20 54 255 203 74 255
+CHECK "Chk_MapMonster" "" "SFX\Interface\ClickA.wav" 336 692 36 36 "Extra\复选框_标准-x2.tga"
+CHECK "Chk_MapNPC" "" "SFX\Interface\ClickA.wav" 52 688 36 36 "Extra\复选框_标准-x2.tga"
+CHECK "Chk_MapPlayer" "" "SFX\Interface\ClickA.wav" 52 730 36 36 "Extra\复选框_标准-x2.tga"
+LABEL "Control_434132028" "" "" 382 694 186 30 55 20 56 255 255 255 255
+LABEL "Control_5808192" "" "" 98 692 184 28 57 20 58 255 255 255 255
+LABEL "Control_74013646" "" "" 98 734 220 28 59 20 60 255 255 255 255
+LABEL "Control_91016838" "" "" 68 600 206 30 61 20 62 255 255 255 255
+LABEL "Control_1593328" "" "" 96 488 256 28 63 20 64 255 255 255 255
+CHECK "Chk_Personize" "personize" "SFX\Interface\ClickA.wav" 52 486 36 36 "Extra\复选框_标准-x2.tga"
+LABEL "Control_241121184" "" "" 270 600 30 30 65 20 66 255 255 255 255
+LABEL "Control_757588832" "" "" 546 600 38 30 67 20 68 255 255 255 255
+SLIDER "Slider_SpEffect" "speffect" "" 304 608 240 18 "Listbox\列表框_滚动槽2-x2.tga" "Listbox\列表框_拖动按钮2-x2.bmp" 3
+LABEL "Control_97319990" "" "" 68 564 164 32 69 20 70 255 255 255 255
+LABEL "Control_211277176" "" "" 304 450 158 26 71 20 72 255 255 255 255
+LABEL "Control_163331316" "" "" 356 528 164 30 73 20 74 255 255 255 255
