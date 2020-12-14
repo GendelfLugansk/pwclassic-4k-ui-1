@@ -1,27 +1,28 @@
-DIALOG "Win_ChannelJoin" 0 0 450 270 0 1 10 "Window\对话框_标准边框1.dds" "" "Window\对话框_标题.tga" 0 0 451 33 "Window\对话框_标准关闭.tga" 47 7 96 96 96 255 1
-LABEL "title" "" "" 175 5 107 23 2 16 3 255 203 74 255
-LABEL "nouse5" "" "" 187 40 54 15 4 10 5 255 255 255 255
-LABEL "nouse3" "" "" 9 244 69 18 6 10 7 255 203 74 255
-LABEL "nouse1" "" "" 339 245 65 18 8 10 9 255 203 74 255
-EDIT "Default_Txt_CreatorName" "joinascreator" "" 48 37 137 21 "Editbox\文本框_4.dds" 10 10 255 255 255 "TEXT" 0 0 9
-STILLIMAGEBUTTON "Btn_JoinAsCreator" "joinascreator" "SFX\Interface\ClickB.wav" 7 34 40 24 0 0 0 0 11 10 255 255 255 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 12 1
-LIST "Lst_AllChannel" "join" "SFX\Interface\ClickB.wav" 7 83 437 158 13 10 255 255 255 255 "Editbox\文本框_4.dds" "Listbox\列表框_反显.dds" "Listbox\列表框_上移.bmp" "Listbox\列表框_下移.bmp" "Listbox\列表框_滚动槽1.tga" "Listbox\列表框_拖动按钮1.bmp" 0 "44 38 164 140 44"
-EDIT "Txt_RoomIDStart" "jump" "" 78 242 34 21 "Editbox\文本框_4.dds" 14 10 255 255 255 "TEXT" 0 0 4
-STILLIMAGEBUTTON "Btn_Jump" "jump" "" 115 248 9 12 0 0 0 0 15 10 255 255 255 255 "Button\按钮_L1.bmp" "Button\按钮_L2.bmp" 16 1
-STILLIMAGEBUTTON "Btn_LastPage" "last" "SFX\Interface\ClickB.wav" 203 246 12 15 0 0 0 0 17 10 255 255 255 255 "Button\按钮_左移1.tga" "Button\按钮_左移2.tga" 18 1
-STILLIMAGEBUTTON "Btn_NextPage" "next" "SFX\Interface\ClickB.wav" 240 246 12 15 0 0 0 0 19 10 255 255 255 255 "Button\按钮_右移1.tga" "Button\按钮_右移2.tga" 20 1
-STILLIMAGEBUTTON "Btn_Refresh" "refresh" "SFX\Interface\ClickB.wav" 222 245 12 15 0 0 0 0 21 10 255 255 255 255 "Button\刷新_1.tga" "Button\刷新_2.tga" 22 1
-LABEL "Txt_RoomTotal" "" "" 407 245 33 18 23 10 24 255 255 255 255
-EDIT "back1" "" "" 7 63 44 19 "Editbox\文本框_4.dds" 25 15 255 0 255 "TEXT" 1 0 256
-EDIT "back2" "" "" 50 63 38 19 "Editbox\文本框_4.dds" 26 15 255 0 255 "TEXT" 1 0 256
-EDIT "back3" "" "" 87 63 164 19 "Editbox\文本框_4.dds" 27 15 255 0 255 "TEXT" 1 0 256
-EDIT "back4" "" "" 250 63 133 19 "Editbox\文本框_4.dds" 28 15 255 0 255 "TEXT" 1 0 256
-EDIT "back5" "" "" 382 63 62 19 "Editbox\文本框_4.dds" 29 15 255 0 255 "TEXT" 1 0 256
-STILLIMAGEBUTTON "Btn_SortNumber" "sortnumber" "" 9 64 36 14 0 0 0 0 30 10 255 203 74 255 "Window\对话框_透明色.bmp" "Window\对话框_透明色.bmp" 31 1
-STILLIMAGEBUTTON "Btn_SortStats" "sortstats" "" 52 64 32 14 0 0 0 0 32 10 255 203 74 255 "Window\对话框_透明色.bmp" "Window\对话框_透明色.bmp" 33 1
-STILLIMAGEBUTTON "Btn_SortTopic" "sorttopic" "" 89 64 156 14 0 0 0 0 34 10 255 203 74 255 "Window\对话框_透明色.bmp" "Window\对话框_透明色.bmp" 35 1
-STILLIMAGEBUTTON "Btn_SortCreator" "sortcreator" "" 252 64 125 14 0 0 0 0 36 10 255 203 74 255 "Window\对话框_透明色.bmp" "Window\对话框_透明色.bmp" 37 1
-STILLIMAGEBUTTON "Btn_SortCurrent" "sortcurrent" "" 384 64 54 14 0 0 0 0 38 10 255 203 74 255 "Window\对话框_透明色.bmp" "Window\对话框_透明色.bmp" 39 1
-EDIT "Txt_Number" "joinasnumber" "" 286 37 51 21 "Editbox\文本框_4.dds" 40 10 255 255 255 "TEXT" 0 0 5
-STILLIMAGEBUTTON "Btn_JoinAsNumber" "joinasnumber" "" 243 35 40 24 0 0 0 0 41 10 255 255 255 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 42 1
-LABEL "Control_131266707" "" "" 338 40 56 15 43 10 44 255 255 255 255
+#Войти в беседку
+DIALOG "Win_ChannelJoin" 0 0 900 540 0 1 10 "Window\对话框_标准边框1-x2.dds" "" "Window\对话框_标题-x2.tga" 0 0 902 66 "Window\对话框_标准关闭-x2.tga" 94 14 96 96 96 255 1
+LABEL "title" "" "" 350 10 214 46 2 32 3 255 203 74 255
+LABEL "nouse5" "" "" 374 80 108 30 4 20 5 255 255 255 255
+LABEL "nouse3" "" "" 18 488 138 36 6 20 7 255 203 74 255
+LABEL "nouse1" "" "" 678 490 130 36 8 20 9 255 203 74 255
+EDIT "Default_Txt_CreatorName" "joinascreator" "" 96 74 274 42 "Editbox\文本框_4-x2.dds" 10 20 255 255 255 "TEXT" 0 0 9
+STILLIMAGEBUTTON "Btn_JoinAsCreator" "joinascreator" "SFX\Interface\ClickB.wav" 14 68 80 48 0 0 0 0 11 20 255 255 255 255 "Button\按钮_文本1-x2.dds" "Button\按钮_文本2-x2.dds" 12 1
+LIST "Lst_AllChannel" "join" "SFX\Interface\ClickB.wav" 14 166 874 316 13 20 255 255 255 255 "Editbox\文本框_4-x2.dds" "Listbox\列表框_反显-x2.dds" "Listbox\列表框_上移-x2.bmp" "Listbox\列表框_下移-x2.bmp" "Listbox\列表框_滚动槽1-x2.tga" "Listbox\列表框_拖动按钮1-x2.bmp" 0 "88 76 328 280 88"
+EDIT "Txt_RoomIDStart" "jump" "" 156 484 68 42 "Editbox\文本框_4-x2.dds" 14 20 255 255 255 "TEXT" 0 0 4
+STILLIMAGEBUTTON "Btn_Jump" "jump" "" 230 496 18 24 0 0 0 0 15 20 255 255 255 255 "Button\按钮_L1-x2.bmp" "Button\按钮_L2-x2.bmp" 16 1
+STILLIMAGEBUTTON "Btn_LastPage" "last" "SFX\Interface\ClickB.wav" 406 492 24 30 0 0 0 0 17 20 255 255 255 255 "Button\按钮_左移1-x2.tga" "Button\按钮_左移2-x2.tga" 18 1
+STILLIMAGEBUTTON "Btn_NextPage" "next" "SFX\Interface\ClickB.wav" 480 492 24 30 0 0 0 0 19 20 255 255 255 255 "Button\按钮_右移1-x2.tga" "Button\按钮_右移2-x2.tga" 20 1
+STILLIMAGEBUTTON "Btn_Refresh" "refresh" "SFX\Interface\ClickB.wav" 444 490 24 30 0 0 0 0 21 20 255 255 255 255 "Button\刷新_1-x2.tga" "Button\刷新_2-x2.tga" 22 1
+LABEL "Txt_RoomTotal" "" "" 814 490 66 36 23 20 24 255 255 255 255
+EDIT "back1" "" "" 14 126 88 38 "Editbox\文本框_4.dds" 25 30 255 0 255 "TEXT" 1 0 256
+EDIT "back2" "" "" 100 126 76 38 "Editbox\文本框_4.dds" 26 30 255 0 255 "TEXT" 1 0 256
+EDIT "back3" "" "" 174 126 328 38 "Editbox\文本框_4.dds" 27 30 255 0 255 "TEXT" 1 0 256
+EDIT "back4" "" "" 500 126 266 38 "Editbox\文本框_4.dds" 28 30 255 0 255 "TEXT" 1 0 256
+EDIT "back5" "" "" 764 126 124 38 "Editbox\文本框_4.dds" 29 30 255 0 255 "TEXT" 1 0 256
+STILLIMAGEBUTTON "Btn_SortNumber" "sortnumber" "" 18 128 72 28 0 0 0 0 30 20 255 203 74 255 "Window\对话框_透明色.bmp" "Window\对话框_透明色.bmp" 31 1
+STILLIMAGEBUTTON "Btn_SortStats" "sortstats" "" 104 128 64 28 0 0 0 0 32 20 255 203 74 255 "Window\对话框_透明色.bmp" "Window\对话框_透明色.bmp" 33 1
+STILLIMAGEBUTTON "Btn_SortTopic" "sorttopic" "" 178 128 312 28 0 0 0 0 34 20 255 203 74 255 "Window\对话框_透明色.bmp" "Window\对话框_透明色.bmp" 35 1
+STILLIMAGEBUTTON "Btn_SortCreator" "sortcreator" "" 504 128 250 28 0 0 0 0 36 20 255 203 74 255 "Window\对话框_透明色.bmp" "Window\对话框_透明色.bmp" 37 1
+STILLIMAGEBUTTON "Btn_SortCurrent" "sortcurrent" "" 768 128 108 28 0 0 0 0 38 20 255 203 74 255 "Window\对话框_透明色.bmp" "Window\对话框_透明色.bmp" 39 1
+EDIT "Txt_Number" "joinasnumber" "" 572 74 102 42 "Editbox\文本框_4-x2.dds" 40 20 255 255 255 "TEXT" 0 0 5
+STILLIMAGEBUTTON "Btn_JoinAsNumber" "joinasnumber" "" 486 70 80 48 0 0 0 0 41 20 255 255 255 255 "Button\按钮_文本1-x2.dds" "Button\按钮_文本2-x2.dds" 42 1
+LABEL "Control_131266707" "" "" 676 80 112 30 43 20 44 255 255 255 255
