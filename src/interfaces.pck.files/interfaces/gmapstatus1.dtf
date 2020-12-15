@@ -1,18 +1,19 @@
-DIALOG "Win_GMapStatus1" 0 0 190 200 0 1 10 "Window\对话框_透明色.bmp" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1
-LABEL "Lab_Name" "" "" 4 6 0 0 2 10 3 255 203 74 255
-LABEL "Txt_Name" "" "" 66 6 0 0 4 10 5 192 192 192 255
-LABEL "Lab_Level" "" "" 4 26 0 0 6 10 7 255 203 74 255
-LABEL "Txt_Level" "" "" 66 26 0 0 8 10 9 192 192 192 255
-LABEL "Lab_Win" "" "" 4 46 0 0 10 10 11 255 203 74 255
-LABEL "Txt_Win" "" "" 66 46 0 0 12 10 13 192 192 192 255
-LABEL "Lab_Attach" "" "" 4 66 0 0 14 10 15 255 203 74 255
-LABEL "Txt_Attach" "" "" 66 66 0 0 16 10 17 192 192 192 255
-LABEL "Lab_Attack" "" "" 4 86 0 0 18 10 19 255 203 74 255
-LABEL "Txt_Attack" "" "" 66 86 0 0 20 10 21 192 192 192 255
-LABEL "Lab_Time" "" "" 4 106 0 0 22 10 23 255 203 74 255
-LABEL "Txt_Time" "" "" 105 106 0 0 24 10 25 192 192 192 255
-STILLIMAGEBUTTON "Btn_AllBattleTime" "allbattletime" "" 0 168 117 24 0 0 0 0 26 10 255 203 74 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 27 1
-LABEL "Lab_Money" "" "" 4 126 0 0 28 10 29 255 203 74 255
-LABEL "Txt_Money" "" "" 85 127 0 0 30 10 31 192 192 192 255
-LABEL "Lab_MaxReturn" "" "" 4 146 0 0 32 10 33 255 203 74 255
-LABEL "Txt_MaxReturn" "" "" 85 146 0 0 34 10 35 192 192 192 255
+#Окошко на карте территорий слева
+DIALOG "Win_GMapStatus1" 0 0 380 400 0 1 10 "Window\对话框_透明色.bmp" "" "" 0 0 -2 -2 "" 0 0 96 96 96 255 1
+LABEL "Lab_Name" "" "" 8 12 0 0 2 20 3 255 203 74 255
+LABEL "Txt_Name" "" "" 132 12 0 0 4 20 5 192 192 192 255
+LABEL "Lab_Level" "" "" 8 52 0 0 6 20 7 255 203 74 255
+LABEL "Txt_Level" "" "" 132 52 0 0 8 20 9 192 192 192 255
+LABEL "Lab_Win" "" "" 8 92 0 0 10 20 11 255 203 74 255
+LABEL "Txt_Win" "" "" 132 92 0 0 12 20 13 192 192 192 255
+LABEL "Lab_Attach" "" "" 8 132 0 0 14 20 15 255 203 74 255
+LABEL "Txt_Attach" "" "" 132 132 0 0 16 20 17 192 192 192 255
+LABEL "Lab_Attack" "" "" 8 172 0 0 18 20 19 255 203 74 255
+LABEL "Txt_Attack" "" "" 132 172 0 0 20 20 21 192 192 192 255
+LABEL "Lab_Time" "" "" 8 212 0 0 22 20 23 255 203 74 255
+LABEL "Txt_Time" "" "" 210 212 0 0 24 20 25 192 192 192 255
+STILLIMAGEBUTTON "Btn_AllBattleTime" "allbattletime" "" 0 336 234 48 0 0 0 0 26 20 255 203 74 255 "Button\按钮_文本1-x2.dds" "Button\按钮_文本2-x2.dds" 27 1
+LABEL "Lab_Money" "" "" 8 252 0 0 28 20 29 255 203 74 255
+LABEL "Txt_Money" "" "" 170 254 0 0 30 20 31 192 192 192 255
+LABEL "Lab_MaxReturn" "" "" 8 292 0 0 32 20 33 255 203 74 255
+LABEL "Txt_MaxReturn" "" "" 170 292 0 0 34 20 35 192 192 192 255
