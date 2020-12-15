@@ -1,15 +1,16 @@
-DIALOG "Win_Mark" 0 0 311 400 0 1 10 "Window\对话框_标准边框.dds" "" "" 0 0 -1 -1 "" 25 2 96 96 96 255 1
-LABEL "Control_724682070" "" "" 196 10 62 14 2 10 3 255 203 74 255
-EDIT "Txt_Mark" "makemark" "" 160 30 120 21 "Editbox\文本框_4.dds" 4 10 255 255 255 "TEXT" 0 0 256
-STILLIMAGEBUTTON "Btn_Mark" "makemark" "SFX\Interface\ClickB.wav" 286 34 12 15 0 0 0 0 5 12 255 255 255 255 "Button\按钮_右移1.tga" "Button\按钮_右移2.tga" 6 1
-LIST "List_Choose" "listchoose" "" 160 53 140 300 7 10 255 255 255 255 "Editbox\文本框_4.dds" "Listbox\列表框_反显.dds" "Listbox\列表框_上移.bmp" "Listbox\列表框_下移.bmp" "Listbox\列表框_滚动槽1.tga" "Listbox\列表框_拖动按钮1.bmp" 0 "0"
-LABEL "Control_26063226" "" "" 38 10 91 14 8 10 9 255 203 74 255
-LIST "List_Region" "listregion" "" 8 30 150 360 10 10 255 255 255 255 "Editbox\文本框_4.dds" "Listbox\列表框_反显.dds" "Listbox\列表框_上移.bmp" "Listbox\列表框_下移.bmp" "Listbox\列表框_滚动槽1.tga" "Listbox\列表框_拖动按钮1.bmp" 0 "0"
-STILLIMAGEBUTTON "Btn_Edit" "edit" "" 162 375 15 15 0 0 0 0 11 15 255 255 255 255 "Button\按钮_标记A1.tga" "Button\按钮_标记A2.tga" 12 1
-STILLIMAGEBUTTON "Btn_Delete" "delete" "" 254 375 15 15 0 0 0 0 13 15 255 255 255 255 "Button\按钮_标记D1.tga" "Button\按钮_标记D2.tga" 14 1
-STILLIMAGEBUTTON "Btn_DeleteAll" "deleteall" "" 284 375 15 15 0 0 0 0 15 15 255 255 255 255 "Button\按钮_标记E1.tga" "Button\按钮_标记E2.tga" 16 1
-STILLIMAGEBUTTON "Btn_Radar" "radar" "" 223 375 15 15 0 0 0 0 17 15 255 255 255 255 "Button\按钮_标记C1.tga" "Button\按钮_标记C2.tga" 18 1
-STILLIMAGEBUTTON "Btn_Arrow" "arrow" "" 191 375 15 15 0 0 0 0 19 15 255 255 255 255 "Button\按钮_标记B1.tga" "Button\按钮_标记B2.tga" 20 1
-STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 281 7 21 21 0 0 0 0 21 15 255 255 255 255 "Window\关闭_绿.tga" "Window\关闭_白.tga" 22 1
-LABEL "Control_94401936" "" "" 165 354 140 20 23 10 24 255 204 74 255
+#Добавить маркер на карту
+DIALOG "Win_Mark" 0 0 622 800 0 1 10 "Window\对话框_标准边框-x2.dds" "" "" 0 0 -2 -2 "" 50 4 96 96 96 255 1
+LABEL "Control_724682070" "" "" 392 20 124 28 2 20 3 255 203 74 255
+EDIT "Txt_Mark" "makemark" "" 320 60 240 42 "Editbox\文本框_4-x2.dds" 4 20 255 255 255 "TEXT" 0 0 256
+STILLIMAGEBUTTON "Btn_Mark" "makemark" "SFX\Interface\ClickB.wav" 572 68 24 30 0 0 0 0 5 24 255 255 255 255 "Button\按钮_右移1-x2.tga" "Button\按钮_右移2-x2.tga" 6 1
+LIST "List_Choose" "listchoose" "" 320 106 280 600 7 20 255 255 255 255 "Editbox\文本框_4-x2.dds" "Listbox\列表框_反显-x2.dds" "Listbox\列表框_上移-x2.bmp" "Listbox\列表框_下移-x2.bmp" "Listbox\列表框_滚动槽1-x2.tga" "Listbox\列表框_拖动按钮1-x2.bmp" 0 "0"
+LABEL "Control_26063226" "" "" 76 20 182 28 8 20 9 255 203 74 255
+LIST "List_Region" "listregion" "" 16 60 300 720 10 20 255 255 255 255 "Editbox\文本框_4-x2.dds" "Listbox\列表框_反显-x2.dds" "Listbox\列表框_上移-x2.bmp" "Listbox\列表框_下移-x2.bmp" "Listbox\列表框_滚动槽1-x2.tga" "Listbox\列表框_拖动按钮1-x2.bmp" 0 "0"
+STILLIMAGEBUTTON "Btn_Edit" "edit" "" 324 750 30 30 0 0 0 0 11 30 255 255 255 255 "Button\按钮_标记A1-x2.tga" "Button\按钮_标记A2-x2.tga" 12 1
+STILLIMAGEBUTTON "Btn_Delete" "delete" "" 508 750 30 30 0 0 0 0 13 30 255 255 255 255 "Button\按钮_标记D1-x2.tga" "Button\按钮_标记D2-x2.tga" 14 1
+STILLIMAGEBUTTON "Btn_DeleteAll" "deleteall" "" 568 750 30 30 0 0 0 0 15 30 255 255 255 255 "Button\按钮_标记E1-x2.tga" "Button\按钮_标记E2-x2.tga" 16 1
+STILLIMAGEBUTTON "Btn_Radar" "radar" "" 446 750 30 30 0 0 0 0 17 30 255 255 255 255 "Button\按钮_标记C1-x2.tga" "Button\按钮_标记C2-x2.tga" 18 1
+STILLIMAGEBUTTON "Btn_Arrow" "arrow" "" 382 750 30 30 0 0 0 0 19 30 255 255 255 255 "Button\按钮_标记B1-x2.tga" "Button\按钮_标记B2-x2.tga" 20 1
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 562 14 42 42 0 0 0 0 21 30 255 255 255 255 "Window\关闭_绿-x2.tga" "Window\关闭_白.tga" 22 1
+LABEL "Control_94401936" "" "" 330 708 280 40 23 20 24 255 204 74 255
 
