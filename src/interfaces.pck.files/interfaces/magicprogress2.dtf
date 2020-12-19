@@ -1,5 +1,5 @@
 #Прогресс каста скила с зарядкой (например прицел у лучника)
-DIALOG "MagicProgress2" 0 0 756 66 0 1 10 "" "" "" 0 0 -1 -1 "" 0 0 96 96 96 1 1
+DIALOG "MagicProgress2" 0 0 756 66 0 1 10 "" "" "" 0 0 -1 -1 "" 0 0 96 96 96 6 1
 PROGRESS "Prgs" "" "" 36 18 648 32 "Progress\通用.tga" "Progress\蓄力_2.tga" 0 1 0 1
 IMAGEPICTURE "Cover" "" "" 0 0 756 66 1 0 "Progress\蓄力_3.tga"
 STILLIMAGEBUTTON "Btn" "stop" "" 693 16 36 36 0 0 0 0 2 20 255 255 255 255 "Progress\蓄力_4a-x2.tga" "Progress\蓄力_4b-x2.tga" 3 1
