@@ -1,7 +1,7 @@
 #Настройка горячих клавиш
 DIALOG "Win_QuickKey" 0 0 682 882 0 1 20 "Window\对话框_标准边框x-x2.dds" "" "" 0 0 566 66 "Window\对话框_标准关闭-x2.tga" 118 66 96 96 96 255 1
 EDIT "Img_Title" "" "" 32 50 626 66 "Window\对话框_标题-x2.tga" 2 30 255 255 255 "TEXT" 1 0 20
-LABEL "title" "" "" 234 58 0 0 3 16 4 255 203 74 255
+LABEL "title" "" "" 204 58 0 0 3 30 4 255 203 74 255
 STILLIMAGEBUTTON "Btn_Function" "" "SFX\Interface\ClickB.wav" 44 120 340 48 0 0 0 0 5 20 255 255 255 255 "Button\按钮_文本1-x2.dds" "Button\按钮_文本2-x2.dds" 6 1
 STILLIMAGEBUTTON "Btn_QuickKey" "" "SFX\Interface\ClickB.wav" 384 120 258 48 0 0 0 0 7 20 255 255 255 255 "Button\按钮_文本1-x2.dds" "Button\按钮_文本2-x2.dds" 8 1
 LIST "Lst_Keylist" "" "" 44 172 600 600 9 20 255 255 255 255 "Editbox\文本框_4-x2.dds" "Listbox\列表框_反显-x2.dds" "Listbox\列表框_上移-x2.bmp" "Listbox\列表框_下移-x2.bmp" "Listbox\列表框_滚动槽1-x2.tga" "Listbox\列表框_拖动按钮1-x2.bmp" 0 "450 150"
